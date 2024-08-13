@@ -6,7 +6,7 @@
 let store_update = []
 $("document").ready(function() {
     $('input:checkbox').change(function () {
-        if ($(this).is(':checked_box')) {
+        if ($(this).is(':store_update')) {
             store_update[$(this).data('id')] = $(this).data('name');
         }
         else {
